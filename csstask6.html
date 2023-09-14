@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .avatar {
+        width: 200px;
+        border-radius: 50%;
+      }
+      .imgcontainer {
+        padding-left: 42vw;
+      }
+      .form1 {
+        padding-left: 20vw;
+      }
+      .form2 {
+        
+        margin-left: 20%;
+        margin-right: 16%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: lightgray;
+      }
+      #cancel {
+        width: auto;
+        cursor: pointer;
+        border-radius: 5px;
+        border: solid #f44336;
+        background-color: #f44336;
+        color: aliceblue;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      #button1 {
+        background-color: #04aa6d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+      }
+      a{
+        padding-left: 62%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="imgcontainer">
+        <img src="img_avatar2.png" alt="Avatar" class="avatar" />
+      </div>
+      <div class="form1">
+        <label for="username"><b>Username</b></label> <br />
+        <input type="text" id="username" placeholder="Enter Username" /> <br />
+        <label for="pwd"><b>Password</b></label> <br />
+        <input type="password" id="pwd" placeholder="Enter Password" /> <br />
+        <button id="button1" type="submit">Login</button><br />
+
+        <input type="checkbox" checked="checked" id="remem" />
+        <label for="remem">Remember Me</label>
+        <br>
+      </div>
+      <div class="form2">
+        <button id="cancel" type="reset">Cancel</button>
+        <a href="">Forgot Password?</a>
+      </div>
+    </form>
+  </body>
+</html>
